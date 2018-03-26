@@ -1,0 +1,13 @@
+{
+  "name": "webpack-dynamic-imports-error",
+  "version": "1.0.0",
+  "description": "dynamic chunks loading errors",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --env.file=A; webpack --config webpack.config.js --env.file=B; webpack --config webpack.config.js --env.file=C; node ./server.js"
+  },
+  "author": "Robert Lange",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
+}
